@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Apple;
+  src: url("fonts/AppleGaramond.ttf");
+}
+
+@font-face {
+  font-family: OldLondon;
+  src: url("fonts/OldLondonAlternate.ttf");
+}
+
+@font-face {
+  font-family: HNeue;
+  src: url("fonts/Helvetica Neue LT Std 57 Condensed.otf");
+}
+
+
+
+
+body{
+  top: 500px;
+  height: 500px;
+
+
+
+}
+
+h1 {
+  top: 2.5vw;
+  left: 35vw;
+  position:absolute;
+
+
+}
+
+h2 {
+  top: 8vw;
+  left: 45vw;
+  position: absolute;
+}
+
+
+
+p1 {
+  bottom: 1vw;
+  left: 2vw;
+  font-size: 1.5vw;
+  position: fixed;
+}
+
+p2 {
+  bottom: 1vw;
+  left: 35vw;
+  font-size: 1.5vw;
+  position: fixed;
+}
+
+b1 {
+  bottom: 1vw;
+  right: 2vw;
+  font-size: 1.5vw;
+  position: fixed;
+}
+
+b2 {
+  right: 2vw;
+  position: fixed;
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Apple;
+  src: url("fonts/AppleGaramond.ttf");
+}
+
+@font-face {
+  font-family: OldLondon;
+  src: url("fonts/OldLondonAlternate.ttf");
+}
+
+@font-face {
+  font-family: HNeue;
+  src: url("fonts/Helvetica Neue LT Std 57 Condensed.otf");
+}
+
+
+
+
+body{
+  background: white;
+  top: 1000px;
+  height: 1300px;
+  background-image: url("images/knightandsquire17.gif");
+  background-size:cover;
+}
+
+p2
+{
+font-size: 60px;
+color: blue;
+
+}
