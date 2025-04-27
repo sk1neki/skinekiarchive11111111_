@@ -89,7 +89,7 @@ b1 {
   position: fixed;
 
 
-  @media (max-width: 1000px) {
+  @media only screen and (orientation: portrait) {
     font-size: 3vw;
         bottom: 12vw;
         left: 2vw;
