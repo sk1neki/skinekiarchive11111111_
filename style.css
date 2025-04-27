@@ -23,7 +23,7 @@ body{
 background-image: url("images/conductor.gif");
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
 background-image: url("images/conductormobile.gif");
 
 }
