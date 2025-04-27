@@ -23,7 +23,7 @@ body{
 background-image: url("images/conductor.gif");
 
 
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 600px) {
 background-image: url("images/conductormobile.gif");
 
 }
