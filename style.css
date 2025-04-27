@@ -20,7 +20,13 @@ body{
   top: 500px;
   height: 500px;
 
+background-image: url("images/conductor.gif");
 
+
+@media (max-width: 1000px) {
+background-image: url("images/conductormobile.gif");
+
+}
 
 }
 
@@ -55,6 +61,12 @@ p1 {
   left: 2vw;
   font-size: 1.5vw;
   position: fixed;
+
+
+  @media (max-width: 1000px) {
+    font-size: 3vw;
+        bottom: 8vw;
+  }
 }
 
 p2 {
@@ -62,6 +74,12 @@ p2 {
   left: 35vw;
   font-size: 1.5vw;
   position: fixed;
+
+  @media (max-width: 1000px) {
+    font-size: 3vw;
+    left: 2vw;
+    bottom: 4vw;
+  }
 }
 
 b1 {
@@ -69,6 +87,13 @@ b1 {
   right: 2vw;
   font-size: 1.5vw;
   position: fixed;
+
+
+  @media (max-width: 1000px) {
+    font-size: 3vw;
+        bottom: 12vw;
+        left: 2vw;
+  }
 }
 
 b2 {
