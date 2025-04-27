@@ -24,23 +24,33 @@ body{
 
 }
 
+.image-container
+{
+  display: block;
+  position: absolute;
+  width: 20%;
+  padding-top: 50%;
+}
+
 h1 {
-  top: 2.5vw;
-  left: 35vw;
-  position:absolute;
+  top: 5%;
+  left: 25%;
+  position: absolute;
 
 
 }
 
 h2 {
-  top: 8vw;
-  left: 45vw;
+  top: 10%;
+  left: 40%;
+  width: 100px;
+  height: auto;
   position: absolute;
+
 }
 
-
-
 p1 {
+
   bottom: 1vw;
   left: 2vw;
   font-size: 1.5vw;
