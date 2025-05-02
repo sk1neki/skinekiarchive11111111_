@@ -1,0 +1,35 @@
+b1{
+}
+
+
+
+p1{
+  top: 220px;
+  left: 300px;
+  position: absolute;
+  transform: scale(15,2);
+}
+
+p2{
+  top: 220px;
+  left: 3000px;
+  position: absolute;
+}
+
+p3{
+  top: 2000px;
+  left: 300px;
+  position: absolute;
+}
+
+p4{
+  top: 20px;
+  left: 300px;
+  position: fixed;
+  background-color: blue;
+}
+
+
+body {
+  background-color: white;
+}
