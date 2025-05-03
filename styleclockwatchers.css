@@ -28,15 +28,13 @@ p1
 {
   position: absolute;
   top: 1vw;
-  left: 30vw;
-  min-width: 10%;
-  object-fit: cover;
+  left: 32vw;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 600px) {
   left: 2vw;
-  min-width: 1%;
 
   }
+
 }
 
 .clockwatchersposter{
@@ -53,8 +51,8 @@ left: 40vw;
 font-size: 20px;
 transform: scale(0.7,1.5);
 
-@media screen and (max-width: 1000px) {
-left: 0.5vw;
+@media screen and (max-width: 600px) {
+left: -5vw;
 
 }
 }
@@ -67,4 +65,22 @@ p3 {
   left: 2vw;
   font-size: 20px;
   transform: scale(0.8,1.6);
+
+  @media screen and (max-width: 600px) {
+  font-size: 0px;
+  left: 50vw;
+  bottom: 2vw;
+
+  }
+}
+
+
+p4 {
+  position:absolute;
+  font-family: OldLondon;
+  font-size: 3vw;
+  top: 800px;
+  left: 300px;
+
+
 }
