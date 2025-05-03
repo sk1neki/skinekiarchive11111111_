@@ -27,7 +27,21 @@ body{
 p1
 {
   position: absolute;
+  top: 1vw;
   left: 30vw;
+  min-width: 10%;
+  object-fit: cover;
+
+  @media screen and (max-width: 1000px) {
+  left: 2vw;
+  min-width: 1%;
+
+  }
+}
+
+.clockwatchersposter{
+width: 1000px;
+
 }
 
 p2
@@ -35,38 +49,22 @@ p2
 position: fixed;
 background-color: grey;
 bottom: 2vw;
+left: 40vw;
 font-size: 20px;
+transform: scale(0.7,1.5);
+
+@media screen and (max-width: 1000px) {
+left: 0.5vw;
+
+}
 }
 
 
 p3 {
   position: fixed;
   background-color: grey;
-  top: 2vw;
-  font-size: 20px;
-}
-
-
-p4 {
-  position: fixed;
-  background-color: grey;
   bottom: 2vw;
-  left: 85vw;
-}
-
-
-p5 {
-  position: fixed;
-  background-color: grey;
-  top: 2vw;
-  right: 2vw;
+  left: 2vw;
   font-size: 20px;
-}
-
-p6 {
-  position: fixed;
-  background-color: grey;
-  bottom: 2vw;
-  left: 48vw;
-  font-size: 20px;
+  transform: scale(0.8,1.6);
 }
