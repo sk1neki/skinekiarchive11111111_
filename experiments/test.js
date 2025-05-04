@@ -1,1 +1,4 @@
-console.log("Hello world");
+var character =
+document.getElementById("character");
+
+function anim()

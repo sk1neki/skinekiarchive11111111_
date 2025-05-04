@@ -1,4 +1,5 @@
 
+
 b2 {
 color: black;
 position: absolute;
@@ -15,6 +16,28 @@ left: 2vw;
 
 
 
+}
+
+
+
+f1 {
+position: fixed;
+text-align: center;
+left: 10vw;
+bottom: 10px;
+color: blue;
+font-size: 25px;
+transform: scale(2,1);
+}
+
+#movingheart
+{
+    animation: movingheart 5s infinite linear;
+}
+
+@keyframes movingheart {
+  0%{-10;}
+  100%{2000;}
 }
 
 
