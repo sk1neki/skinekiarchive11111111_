@@ -1,12 +1,12 @@
 
 
 b2 {
-color: black;
+color: blue;
 position: absolute;
-top: 500px;
-left: 32vw;
-font-size: 20px;
-text-align: center;
+bottom: 10px;
+left: 1vw;
+font-size: 35px;
+text-align: left;
 
 @media screen and (max-width: 1200px) {
 text-align: left;
@@ -23,10 +23,10 @@ left: 2vw;
 f1 {
 position: fixed;
 text-align: center;
-left: 10vw;
-bottom: 10px;
+right: 2vw;
+top: 10px;
 color: blue;
-font-size: 25px;
+font-size: 35px;
 transform: scale(2,1);
 }
 
@@ -43,9 +43,6 @@ transform: scale(2,1);
 
 
 body {
-background-image: url("images/studentid.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-size: 100% 6000%;
+background-color: black;
 
 }
