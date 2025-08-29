@@ -23,7 +23,7 @@ body{
 background-image: url("images/conductor.gif");
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
 background-image: url("images/conductormobile2.gif");
 
 }
@@ -63,7 +63,7 @@ p1 {
   position: fixed;
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     font-size: 3vw;
         bottom: 8vw;
   }
@@ -75,7 +75,7 @@ p2 {
   font-size: 1.5vw;
   position: fixed;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     font-size: 3vw;
     left: 2vw;
     bottom: 4vw;
@@ -89,7 +89,7 @@ b1 {
   position: fixed;
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     font-size: 3vw;
         bottom: 12vw;
         left: 2vw;
