@@ -1,3 +1,11 @@
+#container a{
+color: #00ea2b;
+}
+
+#container a:hover{
+color: blue;
+}
+
 b1{
 }
 
@@ -19,10 +27,28 @@ h1 {
 
 p1{
   top: 220px;
-  left: 300px;
+  left: 350px;
   position: absolute;
   transform: scale(15,2);
+    z-index: 11;
 }
+
+p2{
+  top: 350px;
+  left: 700px;
+  position: absolute;
+  transform: scale(1,1);
+    z-index: 11;
+}
+
+p3{
+  top: 200px;
+  left: 500px;
+  position: absolute;
+  transform: scale(1,1);
+  z-index: 10;
+}
+
 
 p4{
   top: 20px;
@@ -30,6 +56,8 @@ p4{
   position: fixed;
   background-color: blue;
 }
+
+
 
 
 body {
