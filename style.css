@@ -14,21 +14,36 @@
 }
 
 
+#container a{
+color: #a6a6a6;
+}
 
+#container a:hover{
+color: blue;
+}
 
 body{
+@media screen and (min-width: 1200px) {
   top: 500px;
   height: 500px;
 
 background-image: url("images/conductor.gif");
-
+  background-repeat:repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+}
 
 @media screen and (max-width: 1200px) {
-background-image: url("images/conductormobile2.gif");
+background-image: url("video/4-2.mp4");
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: repeat-y;
 
 }
-
 }
+
+
 
 .image-container
 {
@@ -64,8 +79,9 @@ p1 {
 
 
   @media screen and (max-width: 1200px) {
-    font-size: 3vw;
+    font-size: 0px;
         bottom: 8vw;
+        left: 10vw;
   }
 }
 
@@ -76,7 +92,7 @@ p2 {
   position: fixed;
 
   @media screen and (max-width: 1200px) {
-    font-size: 3vw;
+    font-size: 0px;
     left: 2vw;
     bottom: 4vw;
   }
@@ -90,13 +106,20 @@ b1 {
 
 
   @media screen and (max-width: 1200px) {
-    font-size: 3vw;
+    font-size: 0px;
         bottom: 12vw;
         left: 2vw;
   }
 }
 
 b2 {
-  right: 2vw;
-  position: fixed;
+  font-size: 0px;
+
+    @media screen and (max-width: 1200px) {
+      position: fixed;
+      color: rgb(77, 77, 77);
+    font-size: 3vw;
+        bottom: 2vw;
+        left: 1px;
+  }
 }
