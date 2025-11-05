@@ -1,11 +1,17 @@
+#container a{
+color: rgb(138, 0, 181);
+}
 
+#container a:hover{
+  color: rgb(255, 0, 0);
+}
 
 b2 {
 color: blue;
 position: absolute;
 bottom: 10px;
 left: 1vw;
-font-size: 35px;
+font-size: 25px;
 text-align: left;
 
 @media screen and (max-width: 1200px) {

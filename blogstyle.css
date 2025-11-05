@@ -6,6 +6,20 @@ color: #00ea2b;
 color: blue;
 }
 
+
+#containerb a{
+  color: rgb(255, 63, 204);
+  font-family:fantasy
+}
+
+#containerb a:hover{
+color: rgb(229, 255, 0);
+}
+
+#containerc a:hover{
+  background-color: greenyellow;
+}
+
 b1{
 }
 
@@ -51,15 +65,46 @@ p3{
 
 
 p4{
-  top: 20px;
-  left: 300px;
-  position: fixed;
+  top: 400px;
+  left: 0px;
+  position: absolute;
   background-color: blue;
+
 }
 
+
+p5 {
+  position: absolute;
+  top: 500px;
+  left: 00px;
+  z-index: 100;
+  transform: scale(1,10);
+}
+
+p6 {
+  position: fixed;
+  color: blue;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  background-color: #00ea2b;
+  z-index: 1000;
+}
+
+
+p7 {
+  position: absolute;
+  top: 50px;
+  left: 1000px;
+  z-index: 100;
+  transform: scale(0,0);
+  color: black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
 
 
 
 body {
   background-color: white;
+  height: 2000px;
 }
