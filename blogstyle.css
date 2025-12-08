@@ -1,3 +1,8 @@
+@font-face {
+  font-family: london;
+  src: url(fonts/OldLondonAlternate.ttf);
+}
+
 #container a{
 color: #00ea2b;
 }
@@ -18,6 +23,15 @@ color: rgb(229, 255, 0);
 
 #containerc a:hover{
   background-color: greenyellow;
+}
+
+
+#containerd a{
+color: blue;
+}
+
+#containerd a:hover{
+color: red;
 }
 
 b1{
@@ -94,12 +108,26 @@ p6 {
 
 p7 {
   position: absolute;
-  top: 50px;
-  left: 1000px;
+  top: 450px;
+  left: 1270px;
   z-index: 100;
-  transform: scale(0,0);
-  color: black;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  transform: rotate(90deg) scale(5,1.4);
+  color: blue;
+  font-family:london;
+}
+
+p8 {
+  position: absolute;
+  left: 000px;
+  top: -200px;
+  z-index: -10;
+}
+
+p9 {
+  position: absolute;
+  left: 500px;
+  top: 0px;
+  z-index: -10;
 }
 
 
