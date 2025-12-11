@@ -1,0 +1,16 @@
+p1{
+    position: absolute;
+    z-index: 10;
+}
+p2{
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+p3{
+    position: absolute;
+    top: 0px;
+    left: 480px;
+}
+

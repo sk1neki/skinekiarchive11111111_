@@ -28,13 +28,18 @@ color: rgb(229, 255, 0);
 
 #containerd a{
 color: blue;
+
 }
 
 #containerd a:hover{
 color: red;
+
+
 }
 
 b1{
+  position: absolute;
+  z-index: 10;
 }
 
 h1 {
@@ -58,15 +63,16 @@ p1{
   left: 350px;
   position: absolute;
   transform: scale(15,2);
-    z-index: 11;
+    z-index: 15;
 }
 
 p2{
   top: 350px;
   left: 700px;
-  position: absolute;
+  position: relative;
+  display: inline-block;
   transform: scale(1,1);
-    z-index: 11;
+    z-index: 15;
 }
 
 p3{
@@ -74,15 +80,17 @@ p3{
   left: 500px;
   position: absolute;
   transform: scale(1,1);
-  z-index: 10;
+  z-index: 11;
 }
 
 
 p4{
+  z-index: 10;
   top: 400px;
   left: 0px;
   position: absolute;
   background-color: blue;
+
 
 }
 
@@ -107,9 +115,10 @@ p6 {
 
 
 p7 {
-  position: absolute;
-  top: 450px;
-  left: 1270px;
+  position: relative;
+  display: inline-block;
+  top: 400px;
+  left: 1000px;
   z-index: 100;
   transform: rotate(90deg) scale(5,1.4);
   color: blue;
@@ -117,17 +126,28 @@ p7 {
 }
 
 p8 {
+  pointer-events: auto;
   position: absolute;
   left: 000px;
   top: -200px;
-  z-index: -10;
+  z-index: 0;
 }
 
 p9 {
   position: absolute;
   left: 500px;
   top: 0px;
-  z-index: -10;
+  z-index: 0;
+      cursor: url("cursors/mouthcursor.cur"), pointer;
+}
+
+p10{
+  position: absolute;
+  left: 60px;
+  top: 900px;
+  color: red;
+  font-size: 20px;
+  z-index: 100;
 }
 
 
@@ -135,4 +155,5 @@ p9 {
 body {
   background-color: white;
   height: 2000px;
+    cursor: url("cursors/cursor1.cur"), auto;
 }
