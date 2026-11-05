@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Apple;
+  src: url("fonts/AppleGaramond.ttf");
+}
+
+@font-face {
+  font-family: OldLondon;
+  src: url("fonts/OldLondonAlternate.ttf");
+}
+
+@font-face {
+  font-family: HNeue;
+  src: url("fonts/Helvetica Neue LT Std 57 Condensed.otf");
+}
+
+
+
+
+body{
+  background-image: url("");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  top: 1000px;
+  height: 1300px;
+  background-color: white;
+}
+
+
+
+p2
+{
+
+  position: absolute;
+  font-size: 25px;
+}
+
+
