@@ -136,7 +136,7 @@ p8 {
 
 p9 {
   position: absolute;
-  left: 500px;
+  left: 1200px;
   top: 0px;
   z-index: 0;
 }
@@ -161,11 +161,13 @@ p11{
 
 
 p12 {
-  position: absolute;
-  left: 1350px;
-  top: 0px;
-  z-index: 100;
+position: absolute;
+left: 500px;
+top: 0px;
+
 }
+
+
 
 
 
